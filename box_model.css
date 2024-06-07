@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #d6d6d6;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  position: sticky;
+  top: 0px;
+  background-color: #79a3e7;
+}
+
+.box {
+  background-color: black;
+  color: white;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.prompt {
+  height: 400px;
+  wid
