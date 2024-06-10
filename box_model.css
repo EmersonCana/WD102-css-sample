@@ -27,4 +27,32 @@ nav a {
 
 .prompt {
   height: 400px;
-  wid
+  width: 400px;
+  border: 1px solid black;
+}
+
+.box {
+  position: relative;
+  top: 400px;
+  height: 300px;
+  width: 300px;
+  background-color: black;
+}
+
+.bigSpace {
+  background-color: #d6d6d6;
+  height: 200vh;
+}
+.bottomMenu {
+  position: sticky;
+  display: flex;
+  bottom: 0px;
+  justify-content: end;
+}
+.chatPrompt {
+  width: 500px;
+  height: 50px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: white;
+}
