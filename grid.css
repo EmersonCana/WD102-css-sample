@@ -104,9 +104,4 @@ nav input {
 .searchBar input {
   width: 300px;
   font-size: 20px;
-  border: none;
-}
-
-.searchBar input:focus {
-  outline: none;
-}
+  border: n

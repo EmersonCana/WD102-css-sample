@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reponsive</title>
+    <style>
+      @media (min-width: 1024px) {
+        .container {
+          display: grid;
+          grid-template-columns: repeat(12, 1fr);
+          gap: 10px;
+        }
+
+        .box {
+          background-color: blue;
+        }
+      }
+
+      @media (min-width: 768px) AND (max-width: 1023px) {
+        .container {
+          display: grid;
+          grid-template-columns: repeat(6, 1fr);
+          gap: 10px;
+        }
+
+        .box {
+          background-color: red;
+        }
+
+        .largeOnly {
+          display: none;
+        }
+      }
+
+      @media (max-width: 767px) {
+        .container {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 10px;
+        }
+
+        .box {
+          background-color: yellow;
+        }
+
+        .largeOnly {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        ONE
+        <br />
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi
+        laborum praesentium rerum hic quisquam, maiores ipsum culpa dolore
+        magnam optio velit nobis qui quod. Porro illum sint nemo fuga quidem!
+      </div>
+      <div class="box largeOnly">TWO</div>
+      <div class="box largeOnly">THREE</div>
+      <div class="box">FOUR</div>
+      <div class="box">FIVE</div>
+      <div class="box">SIX</div>
+      <div class="box">SEVEN</div>
+      <div class="box">EIGHT</div>
+      <div class="box">NINE</div>
+      <div class="box">TEN</div>
+      <div class="box">ELEVEN</div>
+      <div class="box">TWELVE</div>
+    </div>
+  </body>
+</html>
